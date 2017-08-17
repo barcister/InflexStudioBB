@@ -163,14 +163,14 @@ UINavigationControllerDelegate {
                         
                         urlForImage = imageUrl
                         print("Item successfully uploaded")
-                        
+                        self.ref.child("Users").child(uid).child("WeightData").childByAutoId().setValue(["weight": weight, "uploadDate": uploadDate!,"imageUrl": imageUrl])
                     }
 
                 })
-                self.ref.child("Users").child(uid).child("WeightData").childByAutoId().setValue(["weight": weight, "uploadDate": uploadDate!,"imageUrl": urlForImage])
+                
                 let vc = ListTableViewController()
                 vc.viewWillAppear(true)
-                
+                vc.do_table_refresh()
                 self.performSegue(withIdentifier: "unwindToVC1", sender: self)
             }
         }

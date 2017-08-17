@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>185605228991-hkkhg95ju84l69od3pf28akkicr9furt.apps.googleusercontent.com</string>
+	<string>749697746478-ls1opt6hqpq7uhjba32ujjuqmq2t4e2k.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.185605228991-hkkhg95ju84l69od3pf28akkicr9furt</string>
+	<string>com.googleusercontent.apps.749697746478-ls1opt6hqpq7uhjba32ujjuqmq2t4e2k</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC1MBOw__gfLWhDd2nFcEsjQCfaHg_LmFQ</string>
+	<string>AIzaSyDNfGsmiamYMrMdXukRetvlJ3UNrj8sIFg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>185605228991</string>
+	<string>749697746478</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>hu.bb.InflexStudioBB</string>
 	<key>PROJECT_ID</key>
-	<string>inflexstudiobb</string>
+	<string>inflexstudio-e8ddf</string>
 	<key>STORAGE_BUCKET</key>
-	<string>inflexstudiobb.appspot.com</string>
+	<string>inflexstudio-e8ddf.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:185605228991:ios:67c035da973135d4</string>
+	<string>1:749697746478:ios:67c035da973135d4</string>
 	<key>DATABASE_URL</key>
-	<string>https://inflexstudiobb.firebaseio.com</string>
+	<string>https://inflexstudio-e8ddf.firebaseio.com</string>
 </dict>
 </plist>

@@ -181,30 +181,7 @@ class ViewController: UIViewController {
         
     }
     
-    public func heightIsSet() -> Bool {
-        
-        let uid = Auth.auth().currentUser?.uid
-            ref = Database.database().reference()
-            ref.child("Users").child(uid!).child("User data").observe(.value, with: {
-                snapshot in
-                var value = snapshot.value as? NSDictionary
 
-                let height = value?["height"] as? String
-                
-                if height == "" {
-                    self.heightSet = false
-                }
-                else {
-                    self.heightSet = true
-                }
-            })
-        
-        if heightSet == false {
-            return false
-        }
-        else {
-            return true
-        }
         
         
 
@@ -213,5 +190,5 @@ class ViewController: UIViewController {
 
 
 
-}
+
 
